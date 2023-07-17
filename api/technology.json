@@ -1,0 +1,137 @@
+[
+    {
+        "id": "29",
+        "name": "Technology",
+        "path": "/microsoftai",
+        "categorey": "The Latest",
+        "author": "Kyle Wiggers",
+        "title":
+          "Microsoft launches new AI tool to moderate text and images - TechCrunch",
+        "description":
+          "Microsoft has launched a new AI-powered service, Azure AI Content Safety, to detect potentially problematic speech and images online.",
+        "url": "https://techcrunch.com/2023/05/23/microsoft-launches-new-ai-tool-to-moderate-text-and-images/",
+        "urlToImage":
+          "https://techcrunch.com/wp-content/uploads/2019/10/GettyImages-1175327728.jpg?w=1024",
+        "publishedAt": "2023-05-23T15:01:58Z",
+        "content":
+          "Microsoft is launching a new AI-powered moderation service that it says is designed to foster safer online environments and communities Called Azure AI Content Safety, the new offering, available through the Azure AI product platform, offers a range of AI models trained to detect “inappropriate” content across images and text. The models — which can understand text in English, Spanish, German, French, Japanese, Portuguese, Italian and Chinese — assign a severity score to flagged content, indicating to moderators what content requires action.Microsoft has been working on solutions in response to the challenge of harmful content appearing in online communities for over two years. We recognized that existing systems weren’t effectively taking into account context or able to work in multiple languages,” the Microsoft spokesperson said via email. “New [AI] models are able to understand content and cultural context so much better. They are multilingual from the start … and they provide clear and understandable explanations, allowing users to understand why content was flagged or removed.During a demo at Microsoft’s annual Build conference, Sarah Bird, Microsoft’s responsible AI lead, explained that Azure AI Content Safety is a productized version of the safety system powering Microsoft’s chatbot in Bing and Copilot, GitHub’s AI-powered code-generating service"
+      },
+      {
+        "id": "30",
+        "name": "Technology",
+        "path": "/iphone",
+        "categorey": "The Latest",
+        "author": null,
+        "title": "Pixel 7a versus iPhone 14 Pro camera comparison - Phandroid",
+        "description":
+          "Can the new $500 Pixel 7a outperform the $1000 iPhone 14 Pro in a head-to-head camera comparison? That's exactly what we're looking at today with the Pixel 7...",
+        "url": "https://www.youtube.com/watch?v=bJA84W9wztA",
+        "urlToImage": "https://i.ytimg.com/vi/bJA84W9wztA/maxresdefault.jpg",
+        "publishedAt": "2023-05-23T15:24:26Z",
+        "content":
+          "Pixel 7a versus iPhone 14 Pro camera comparison - PhandroidThe cameras in the Pixel series have been known for its AI smarts but this time, Google hasn't skimped on the hardware. The iPhone 14 Pro ushers in one of the biggest changes to its camera hardware in years and that shows in the quality of photos and videos it takes. It's time to find out which smartphone offers the best cameras. If you are looking to buy any of the above camera-centric smartphones, you have to keep in mind that the smaller Google Pixel 7 is vastly different from the Pixel 7 Pro in terms of the camera setup. Apart from the obvious lack of a telephoto camera in the 7, there's also no macro mode available. In the walled garden, there are no differences between the iPhone 14 Pro (Review) and the iPhone 14 Pro Max when it comes to the cameras. "
+      },
+      {
+        "id": "30",
+        "name": "Technology",
+        "path": "/phone2",
+        "categorey": "The Latest",
+        "author": "Deirdre O'Donnell",
+        "title":
+          "iQOO Neo8 series launch with Android 13, 144Hz displays and at least 12GB of RAM - Notebookcheck.net",
+        "description":
+          "iQOO has officially beaten other OEMs such as Xiaomi to the launch of the world's first Dimensity 9200 Plus (or 9200+) -powered smartphone. It has the potential to outclass the Snapdragon 8+ Gen 1 of the Neo8 - then again, this new vanilla model has the same …",
+        "url": "https://www.notebookcheck.net/iQOO-Neo8-series-launch-with-Android-13-144Hz-displays-and-at-least-12GB-of-RAM.719581.0.html",
+        "urlToImage":
+          "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/25afcd1ed87e2b0630.jpg",
+        "publishedAt": "2023-05-23T15:41:22Z",
+        "content":
+          "iQOO has officially beaten other OEMs such as Xiaomi to the launch of the world's first Dimensity 9200 Plus (or 9200+) -powered smartphone. It has the potential to outclass the Snapdragon 8+ Gen 1 of the Neo8 - then again, this new vanilla model has the same appreciably bright, fast AMOLED display, 120W charging and updated dual rear camera window as its Pro sibling.The Neo8 and Neo8 Pro boast the same iQOO hallmark of a remarkably fast 144Hz refresh rate as the brand's first-gen Pad - then again, both new smartphones have been graced with very different 6.78-inch, 1,300-nit 1.5K AMOLED displays. They also feature faster 120W charging technology - however, the Pro variant stands apart as the world's first Dimensity 9200+ vehicle.n fact, iQOO seeks to outdo potential future rivals in using this new flagship SoC refresh by further augmenting the chipset with a 5K vapor chamber system and the same V1+ co-processor as the Neo8's Snapdragon 8+ Gen 1. The secondary chipset is there to help out with things such as ISP duty for both new devices "
+      },
+      {
+        "id": "32",
+        "path": "/chatgpt",
+        "name": "Technology",
+        "categorey": "The Latest Article",
+        "author": "Barry Schwartz",
+        "title":
+          "Bing to be default search engine on Open AI's ChatGPT - Search Engine Land",
+        "description":
+          "ChatGPT Plus subscribers will have access to Bing Search today and it will expand to more users in the future.",
+        "url": "https://searchengineland.com/bing-to-be-default-search-engine-on-open-ais-chatgpt-427465",
+        "urlToImage":
+          "https://searchengineland.com/wp-content/seloads/2023/05/woman-searching-1920.jpg",
+        "publishedAt": "2023-05-23T15:48:00Z",
+        "content":
+          "Bing Search is the default search engine on Open AI’s popular ChatGPT service, Microsoft announced today. Microsoft said that Bing is now the default search experience on ChatGPT.Who will see it. First ChatGPT Plus subscribers will begin to see Bing Search as an option starting today. Then free users of ChatGPT will “soon” be able to use it by enabling a plugin.What it does. This will give ChatGPT more up-to-date information and timely information powered by Bing Search. ChatGPT has a data set from 2021 or earlier, which is why using Bing Chat provided a better experience for more timely questions.Now, with Bing Search in ChatGPT, the service can “provide timelier and more up-to-date answers with access from the web,” the company wrote."
+      },
+  
+      {
+        "id": "33",
+        "name": "Technology",
+        "path": "/nokia",
+        "categorey": "The Latest Article",
+        "author": "https://www.india.com/author/ians/",
+        "title":"Nokia Launches New Budget Smartphone 'C32' in India: Check Price, Feature, Specification - India.com",
+        "description":"Nokia C32 comes in three colour variants -- Charcoal, Breezy Mint, and Beach Pink --with 7GB + 64GB and 7GB + 128 GB storage and memory configurations at Rs 8,999 and Rs 9,499, respectively.",
+        "url": "https://www.india.com/technology/nokia-launches-new-budget-smartphone-c32-in-india-check-price-feature-specification-6067476/",
+        "urlToImage":"https://static.india.com/wp-content/uploads/2023/05/Nokia-C32.jpg",
+        "publishedAt": "2023-05-23T15:49:24Z",
+        "content":"New Delhi: HMD Global, the home of Nokia phones, on Tuesday launched a new budget-friendly smartphone ‘C32’, with a 50MP Dual camera in India. Nokia C32 comes in three colour variants — Charcoal, Breezy Mint, and Beach Pink –with 7GB + 64GB and 7GB + 128 GB storage and memory configurations at Rs 8,999 and Rs 9,499, respectively, which are available to buy from the company’s official website and key retail stores starting Tuesday.The success of the Nokia C-series in India motivates us to continue to offer great value and innovation in this segment. Moreover, we believe that value should not sacrifice design, so we have included a toughened glass finish usually seen in more premium designs to ensure that it looks as good as the pictures it takes,” Ravi Kunwar, VP-India and APAC, HMD Global, said in a statement.The new Nokia C32 features a bright 6.5-inch HD+ display, toughened glass back, dual-tone finish and elegant straight sidewalls."
+      },
+      {
+        "id": "34",
+        "path": "/whatsapp",
+        "name": "Technology",
+        "categorey": "The Latest Article",
+        "author": null,
+        "title":
+          "Whatsapp now lets users edit sent messages | WION Fineprint | Latest World News | English News - WION",
+        "description":
+          "The new edit feature in WhatsApp allows users to make changes to messages after they have been sent. WhatsApp is known for adding new features to the messagi...",
+        "url": "https://www.youtube.com/watch?v=drKP39sAI5k",
+        "urlToImage": "https://i.ytimg.com/vi/drKP39sAI5k/maxresdefault.jpg",
+        "publishedAt": "2023-05-23T15:51:55Z",
+        "content": "WhatsApp on Monday released a new edit feature which will let users make changes to their messages up to 15 minutes after they are sent.Meta CEO Mark Zuckerberg said in a post on Facebook, “You can now edit your WhatsApp messages up to 15 minutes after they’re sent.”Just like messages and calls, the messaging platform assured that edits are protected by end-to-end encryption. "
+      },
+      {
+        "id": "35",
+        "path":"/anand",
+        "name": "Technology",
+        "categorey": "Latest Stories",
+        "author": "Moneycontrol News",
+        "title":"India surges as second-largest steel producer; Anand Mahindra celebrates in emotional tweet - Moneycontrol",
+        "description":"This was in response to a striking statistic that highlighted India's remarkable growth in the global steel manufacturing industry",
+        "url": "https://www.moneycontrol.com/news/trends/india-surges-as-second-largest-steel-producer-anand-mahindra-celebrates-in-emotional-tweet-10647281.html",
+        "urlToImage":"https://images.moneycontrol.com/static-mcnews/2023/04/ezgif.com-webp-to-jpg-4-770x431.jpg",
+        "publishedAt": "2023-05-23T16:01:51Z",
+        "content":"Renowned business tycoon Anand Mahindra, Chairman of the Mahindra Group, recently took to Twitter to express his deep-rooted emotions regarding the success of the Indian steel industry.\r\nThis was in … [+1345 chars]"
+      },
+      {
+        "id": "36",
+        "path":"/iq",
+        "name": "Technology",
+        "categorey": "Latest Stories",
+        "author": "Michail",
+        "title": "iQOO Pad and TWS Air Pro also announced - GSMArena.com",
+        "description":"iQOO Pad packs a Dimensity 9000+ chipset while the TWS Air Pro feature 14.2 drivers and ANC. Alongside its new iQOO Neo8 series smartphones, vivo also...",
+        "url": "https://www.gsmarena.com/iqoo_pad_and_tws_air_pro_also_announced-news-58649.php",
+        "urlToImage":"https://fdn.gsmarena.com/imgroot/news/23/05/iqoo-pad-tws-air-pro-ofic/-952x498w6/gsmarena_00.jpg",
+        "publishedAt": "2023-05-23T16:28:01Z",
+        "content":"Alongside its new iQOO Neo8 series smartphones, vivo also announced the iQOO Pad and iQOO TWS Air Pro wireless earbuds. The tablet is nearly identical to the vivo Pad2 but with a Dimensity 9000+ chip… [+1446 chars]"
+      },
+      {
+        "id": "37",
+        "path":"/google",
+        "name": "Technology",
+        "categorey": "Latest Stories",
+        "author": "Greg Finn",
+        "title":"Google Ads adds 2 new campaign types: Video views, demand gen - Search Engine Land",
+        "description":"Advertisers will have new video-first campaign types at their disposal, Video view campaigns and lead gen campaigns.",
+        "url": "https://searchengineland.com/google-ads-video-views-demand-gen-427496",
+        "urlToImage":"https://searchengineland.com/wp-content/seloads/2023/05/Demand-Gen-header.png",
+        "publishedAt": "2023-05-23T17:28:00Z",
+        "content":"Two new campaign types are coming to Google Ads that help with very specific needs: video views and demand generation.\r\nThese campaigns have a specific goal and appear to be video-first campaigns, wi… [+1995 chars]"
+      }
+  
+]
