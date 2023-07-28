@@ -4267,9 +4267,9 @@ app.post('/signuppage',async(req,res)=>{
   user.password=haspassword
   const token=jwt.sign({userid:user.email},"alliswell@1999",{expiresIn:"1d"})
   userData.push(user)
-  
-  
-  res.send(token)
+   res.send([token,user.name])
+   console.log(userData);
+
 })
 app.use('/signinpage',(req,res)=>{
 const {email,password}=req.body
@@ -4285,7 +4285,7 @@ userData.filter((item)=>{
 
         const token=jwt.sign({userid:item.email},"alliswell@1999",{expiresIn:"1d"})
         
-        res.send(token)
+        res.send([token,item.name])
        }
   }
 })
