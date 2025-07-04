@@ -3,7 +3,7 @@ const route=(req,res)=>{
     res.send([   
         {
             "id": "1",
-            "name": "Hindustan Times",
+            "name": "Hindustan Times mohd arif",
             "author": "HT Entertainment Desk",
             "title": "Shah Rukh video calls 60-year-old fan battling cancer, promises financial help - Hindustan Times",
             "description": "Shah Rukh Khan recently video-called a 60-year-old fan battling cancer and promised to meet her soon as well as help her financially for the treatment. | Bollywood",
