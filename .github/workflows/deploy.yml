@@ -22,6 +22,6 @@ jobs:
           port: 22
           script: |
             cd /home/ubuntu/Blog_server
-            git pull origin master
+            sudo git pull origin master
             pkill node || true
             nohup node index.js > output.log 2>&1 &
