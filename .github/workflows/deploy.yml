@@ -23,7 +23,7 @@ jobs:
           script: |
             cd /home/ubuntu/Blog_server
             git pull origin master
-            # Kill old running node process
+            # Kill old running node process (if exists)
             pkill node || true
-            # Start fresh in background
+            # Start fresh server in background
             nohup node index.js > output.log 2>&1 &
