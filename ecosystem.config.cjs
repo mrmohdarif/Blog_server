@@ -5,18 +5,23 @@ module.exports = {
       script: './index.js',
       env: {
         NODE_ENV: 'production',
-        PORT: 8080,
-        BASE_URL: 'http://50.112.52.43:8080/'
-      },
-      env_qa: {
+        PORT: 8080
+      }
+    },
+    {
+      name: 'blog-qa',
+      script: './index.js',
+      env: {
         NODE_ENV: 'qa',
-        PORT: 8081,
-        BASE_URL: 'http://50.112.52.43:8081/'
-      },
-      env_development: {
+        PORT: 8081
+      }
+    },
+    {
+      name: 'blog-dev',
+      script: './index.js',
+      env: {
         NODE_ENV: 'development',
-        PORT: 8082,
-        BASE_URL: 'http://50.112.52.43:8082/'
+        PORT: 8082
       }
     }
   ]
