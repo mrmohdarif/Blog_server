@@ -1,1 +1,26 @@
+name: Deploy to EC2 on push
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout latest code
+        uses: actions/checkout@v4
+
+      - name: SSH into EC2 and deploy
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ubuntu
+          key: ${{ secrets.EC2_SSH_KEY }}
+          script: |
+            cd /root/Blog_server
+            git pull origin master
+        
 
