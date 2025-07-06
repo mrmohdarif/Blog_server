@@ -1,5 +1,5 @@
-module.exports = {
-  apps : [
+export default {
+  apps: [
     {
       name: 'blog-server',
       script: './index.js',
@@ -25,4 +25,4 @@ module.exports = {
       }
     }
   ]
-};
+}
