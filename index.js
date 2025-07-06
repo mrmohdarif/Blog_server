@@ -27,7 +27,7 @@ app.post('/webhook', (req, res) => {
     // exec('pm2 restart your-app-name');
   });
 
-  res.sendStatus(200);
+  res.sendStatus(200);            
 });
 app.get('/',(req,res)=>{
 res.send([   
@@ -37,7 +37,7 @@ res.send([
          
 
         "id": "1",
-        "name": "Mohd Arif",
+        "name": "Mohd Arif alliswell",
         "author": "HT Entertainment Desk",
         "title": "Shah Rukh video calls 60-year-old fan battling cancer, promises financial help - Hindustan Times",
         "description": "Shah Rukh Khan recently video-called a 60-year-old fan battling cancer and promised to meet her soon as well as help her financially for the treatment. | Bollywood",
