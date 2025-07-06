@@ -16,7 +16,7 @@ const userData=[]
 app.post('/webhook', (req, res) => {
   console.log('Received push event');
 
-  exec('cd /root/Blog_server && git pull', (err, stdout, stderr) => {
+  exec('cd /root/Blog_server && git pull origin master', (err, stdout, stderr) => {
     if (err) {
       console.error(`Error pulling code: ${stderr}`);
       return;
