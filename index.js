@@ -4306,8 +4306,8 @@ userData.filter((item)=>{
   }
 })
 
-const PORT=process.env.PORT
-})
-app.listen(8080,()=>{
-    console.log("server is created");
-})
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(`Server is created on port ${PORT}`);
+});
