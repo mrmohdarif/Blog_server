@@ -1,4 +1,4 @@
-name: Deploy to EC2 on push
+name: Deploy to EC2 on Push
 
 on:
   push:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout latest code
+      - name: Checkout latest code (local to GitHub Actions — optional here)
         uses: actions/checkout@v4
 
       - name: SSH into EC2 and deploy
@@ -22,5 +22,7 @@ jobs:
           port: 22
           script: |
             cd /home/ubuntu/Blog_server
-            sudo git pull origin master
-            pm2 restart blog-server
+            git reset --hard   # ensures clean pull (optional but safe for deployments)
+            git pull origin master
+            pm2 restart blog-server || pm2 start index.js --name blog-server
+            pm2 save
