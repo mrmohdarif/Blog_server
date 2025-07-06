@@ -19,6 +19,11 @@ jobs:
           host: ${{ secrets.EC2_HOST }}
           username: ubuntu
           key: ${{ secrets.EC2_SSH_KEY }}
+          port: 22
           script: |
-            cd /root/Blog_server
+            cd /home/ubuntu/Blog_server
             git pull origin master
+            # Kill old running node process
+            pkill node || true
+            # Start fresh in background
+            nohup node index.js > output.log 2>&1 &
