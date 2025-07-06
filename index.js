@@ -3,7 +3,7 @@ import bcrypt, { compare } from 'bcrypt'
 import  jwt  from "jsonwebtoken";
 import cors from 'cors'
 import dotenv from 'dotenv'
-
+import { exec } from 'child_process';
 const app=express()
 const corsOption={
     origin:"*"
@@ -13,6 +13,22 @@ app.use(cors(corsOption));
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }));
 const userData=[]
+app.post('/webhook', (req, res) => {
+  console.log('Received push event');
+
+  exec('cd /root/Blog_server && git pull', (err, stdout, stderr) => {
+    if (err) {
+      console.error(`Error pulling code: ${stderr}`);
+      return;
+    }
+    console.log(`Git Pull Output:\n${stdout}`);
+
+    // Optionally restart server if using PM2
+    // exec('pm2 restart your-app-name');
+  });
+
+  res.sendStatus(200);
+});
 app.get('/',(req,res)=>{
 res.send([   
     {
