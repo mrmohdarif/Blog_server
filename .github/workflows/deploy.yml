@@ -22,7 +22,6 @@ jobs:
           port: 22
           script: |
             cd /home/ubuntu/Blog_server
-            sudo git reset --hard   # ensures clean pull (optional but safe for deployments)
             sudo git pull origin master
             pm2 restart blog-server || pm2 start index.js --name blog-server
             pm2 save
