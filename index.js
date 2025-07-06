@@ -3,6 +3,7 @@ import bcrypt, { compare } from 'bcrypt'
 import  jwt  from "jsonwebtoken";
 import cors from 'cors'
 import dotenv from 'dotenv'
+dotenv.config()
 import { exec } from 'child_process';
 const app=express()
 const corsOption={
@@ -4306,8 +4307,8 @@ userData.filter((item)=>{
   }
 })
 })
-const PORT = process.env.PORT || 8081;
+const PORT = process.env.PORT;
 
 app.listen(PORT, () => {
-  console.log(`Server is created on port ${PORT}`);
+  console.log(`Server is created on port ${ PORT}`);
 })
