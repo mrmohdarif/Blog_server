@@ -1,25 +1,17 @@
 module.exports = {
-  apps : [
+  apps: [
     {
       name: 'blog-server',
       script: './index.js',
-      env: {
+      env_production: {
         NODE_ENV: 'production',
         PORT: 8080
-      }
-    },
-    {
-      name: 'blog-qa',
-      script: './index.js',
-      env: {
+      },
+      env_qa: {
         NODE_ENV: 'qa',
         PORT: 8081
-      }
-    },
-    {
-      name: 'blog-dev',
-      script: './index.js',
-      env: {
+      },
+      env_development: {
         NODE_ENV: 'development',
         PORT: 8082
       }
